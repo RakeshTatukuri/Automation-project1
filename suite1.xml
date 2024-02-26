@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TESTNG_DEMO.testngdemo1"/>
+      <class name="TESTNG_DEMO.Testng_using_priority"/>
+      <class name="TESTNG_DEMO.Testngdemo2"/>
+      <class name="TESTNG_DEMO.Dependsonmethodattribute"/>
+      <class name="TESTNG_DEMO.Disabletestfromexecution_enabled"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

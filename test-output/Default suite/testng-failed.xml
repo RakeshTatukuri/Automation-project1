@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.SwagLabs.Testcases.InventoryPageTest">
+        <methods>
+          <include name="verifyproductnames"/>
+          <include name="pagesetup"/>
+          <include name="verifyproductcount"/>
+          <include name="validateAddTocart"/>
+          <include name="Appsetup"/>
+        </methods>
+      </class> <!-- com.SwagLabs.Testcases.InventoryPageTest -->
+      <class name="com.SwagLabs.Testcases.OverViewPageTest">
+        <methods>
+          <include name="verifyurl"/>
+          <include name="verifycompleteprocess"/>
+          <include name="pagesetup"/>
+          <include name="verifyproductdetails"/>
+          <include name="Appsetup"/>
+        </methods>
+      </class> <!-- com.SwagLabs.Testcases.OverViewPageTest -->
+      <class name="com.SwagLabs.Testcases.ChechOutPageTest">
+        <methods>
+          <include name="pagesetup"/>
+          <include name="validatecontinueproess"/>
+          <include name="Appsetup"/>
+        </methods>
+      </class> <!-- com.SwagLabs.Testcases.ChechOutPageTest -->
+      <class name="com.SwagLabs.Testcases.LoginPageTest">
+        <methods>
+          <include name="VerifyURL"/>
+          <include name="pagesetup"/>
+          <include name="VerifyLogin"/>
+          <include name="VerifyTitle"/>
+          <include name="Appsetup"/>
+        </methods>
+      </class> <!-- com.SwagLabs.Testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
